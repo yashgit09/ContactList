@@ -14,7 +14,7 @@ public class CustomAdapter extends BaseAdapter {
     ArrayList<Integer> iconList;
     LayoutInflater layoutInflater;
 
-    public CustomAdapter(Context context, ArrayList<String> contactList, ArrayList<Integer> iconList, LayoutInflater layoutInflater) {
+    public CustomAdapter(Context context, ArrayList<String> contactList, ArrayList<Integer> iconList) {
         this.context = context;
         this.contactList = contactList;
         this.iconList = iconList;
