@@ -8,7 +8,6 @@
         android:id="@+id/contactIcon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/blue_profile_pic"
         android:padding="5dp"/>
 
     <TextView
@@ -16,7 +15,6 @@
         android:layout_marginStart="5dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/dark_blue"
         android:layout_gravity="center"/>
 
 </LinearLayout>
